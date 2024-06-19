@@ -1,0 +1,54 @@
+
+
+
+
+
+
+.log1{
+
+    background-color: white;
+    display: flex;
+}
+.log2{
+    background-color: lightblue;
+    
+}
+#imgA{
+    width:50%;
+    
+}
+#imgB{
+    width:50% ;
+    
+}
+    
+
+.log2 p{
+    font-size: 20px;
+}
+.log2 ul{
+    font-size: 20px;
+}
+@media(max-width:600px){
+    .log2 p{
+        font-size: 15px;
+        
+    }
+    .log2 ul{
+        font-size: 15px;
+    }
+    .log1{
+        flex-direction: column;
+
+    }
+    #imgA{
+        width: 100%;
+    }
+    #imgB{
+        width: 100%;
+    }
+}
+
+    
+    
+
